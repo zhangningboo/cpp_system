@@ -21,7 +21,7 @@ void logMessage(LogLevel level, const string& message) {
     }
 }
 
-// g++ log_demo.cpp && ./a.out
+// g++ chapter_3/log_demo.cpp && ./a.out
 int main() {
     logMessage(LogLevel::DEBUG, "This is a debug message.");
     logMessage(LogLevel::INFO, "This is an info message.");

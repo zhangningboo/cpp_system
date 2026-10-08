@@ -1,6 +1,6 @@
 #include <iostream>
 
-// g++ env_op.cpp && ./a.out arg1 arg2
+// g++ chapter_3/env_op.cpp && ./a.out arg1 arg2
 int main(int argc, char* argv[], char* envp[]) {
     for (int i = 0; i < argc; ++i) {
         std::cout << "arg[" << i << "]: " << argv[i] << std::endl;

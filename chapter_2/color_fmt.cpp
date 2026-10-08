@@ -6,6 +6,7 @@ void ycbcr_2_rgb(const float y, const float u, const float v, int& r, int& g, in
 
 int judge_range(const float x);
 
+// g++ chapter_2/color_fmt.cpp && ./a.out
 int main() 
 {
 	int r, g, b;

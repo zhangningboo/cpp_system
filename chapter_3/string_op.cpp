@@ -4,6 +4,19 @@
 
 using namespace std;
 
+void c_style_string();
+
+void cpp_style_string();
+
+// g++ chapter_3/string_op.cpp && ./a.out
+int main() {
+    c_style_string();
+    cpp_style_string();
+
+    return 0;
+}
+
+
 void c_style_string() {
     const char* cstr1 = "Hello";
     const char* cstr2 = "World";
@@ -53,12 +66,4 @@ void cpp_style_string() {
     } else {
         cout << "'or' not found" << endl;
     }
-}
-
-// g++ string_op.cpp && ./a.out
-int main() {
-    c_style_string();
-    cpp_style_string();
-
-    return 0;
 }

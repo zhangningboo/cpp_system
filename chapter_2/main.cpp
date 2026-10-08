@@ -1,5 +1,6 @@
 #include <iostream>
 
+// g++ chapter_2/main.cpp && ./a.out
 int main() 
 {
 	bool b{false};

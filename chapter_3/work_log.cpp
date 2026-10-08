@@ -11,7 +11,8 @@ void record_debug_content(string content, string current_file, int current_line,
 void record_info_content(string content, string current_file, int current_line, const LogLevel& log_level, const string& log_fmt);
 
 string fmt_content(string content, string current_file, int current_line, const string& log_fmt);
-// g++ work_log.cpp && ./a.out
+
+// g++ chapter_3/work_log.cpp && ./a.out
 int main(int argc, char* argv[]) { 
     LogLevel level{LogLevel::DEBUG};
     if (argc > 1) {

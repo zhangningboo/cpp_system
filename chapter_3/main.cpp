@@ -2,6 +2,8 @@
 
 using namespace std;
 
+// g++ chapter_3/main.cpp && ./a.out
+
 int main() 
 {
 	int x{1};

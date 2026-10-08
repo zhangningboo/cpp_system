@@ -1,0 +1,1 @@
+$ g++ work_log.cpp && ./a.out error
